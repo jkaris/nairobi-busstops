@@ -1,0 +1,12 @@
+{% extends '_base.html' %}
+
+{% load static %}
+
+{% load leaflet_tags %}
+
+{% block title %}Nairobi Bus Stops | {{ block.super }}{% endblock %}
+{% block content %}
+    <div class="map-area">
+        {% leaflet_map "main" callback="main_map_init" %}
+    </div>
+{% endblock %}

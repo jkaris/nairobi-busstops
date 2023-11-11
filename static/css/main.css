@@ -1,0 +1,26 @@
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.map-area #main {
+    height: 100vh;
+}
+
+div.ghfork img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
