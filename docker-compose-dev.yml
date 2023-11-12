@@ -37,6 +37,7 @@ services:
       - .env
     environment:
         - DJANGO_SETTINGS_MODULE=mywebgis.settings.local
+        - DATABASE_URL=postgis://${GIS_DB_USER}:${GIS_DB_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${GIS_DB_NAME}
     depends_on:
       database:
           condition: service_healthy
