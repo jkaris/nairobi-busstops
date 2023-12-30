@@ -1,4 +1,4 @@
-# Nairobi Bus Stops WebMap
+# Nairobi Bus Stops
 
 ---
 
